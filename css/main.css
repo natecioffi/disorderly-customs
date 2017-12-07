@@ -20,6 +20,11 @@ p{
 	max-width: 60em;
 	margin: 0 auto;
 	}
+.framework2{	
+	width: 90%;
+	max-width: 150em;
+	margin: 0 auto;
+	}
 /* Navigation */
 
 nav{
@@ -144,8 +149,29 @@ section p{
 section{
 	margin-top: 20em;
 	}	
+#gallary h2{
+	margin: 1em 0 1em 0em;
+	text-align: left;
+	}
+
+#gallary figure {
+	margin: 0 5% 0 5%;
+	clear both;
+	}
+#gallary img{
+	width: 17.5em;
+	height: 12.5em;
+	overflow: hidden;
 	
-	
+	}
+#gallary figure figcaption{
+	text-align: left;
+	font-family: montserrat;
+	font-weight: light;
+	font-style: normal;
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	}
 	/* fonts */
 @font-face {
     font-family: montserrat;
@@ -336,6 +362,18 @@ section{
 
 }
 @media (min-width: 65em) { 
+
+#gallary figure{
+	display: inline-block;
+	
+	}
+#gallary figure img{
+	margin: 0 auto;
+	}
+#gallary h2{
+	margin: 5em 0 1em 0;
+	text-align: center;
+	}
 nav{
 	height: 4em;
 	width: auto;
