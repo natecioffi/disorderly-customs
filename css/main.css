@@ -5,6 +5,7 @@ html{
 	padding: 0;
 	}
 body{
+	scroll-behavior: smooth;
 	margin: 0;
 	}
 p{
